@@ -29,7 +29,7 @@ class Tendril
        endX = startX + (int)(Math.cos(myAngle)*SEG_LENGTH);
        endY = startY + (int)(Math.sin(myAngle)*SEG_LENGTH);
       stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-       
+       strokeWeight(2);
        line(startX, startY, endX, endY);
        startX = endX;
        startY = endY;
